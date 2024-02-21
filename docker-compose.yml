@@ -6,14 +6,14 @@ services:
       context: ${FRONTEND_PATH}
       dockerfile: Dockerfile
     ports:
-      - "80:80"
+      - "3000:3000"
   
   backend:
     build:
       context: ${BACKEND_PATH}
       dockerfile: Dockerfile
     ports:
-      - "3000:3000"
+      - "8888:8888"
     env_file:
       - ${BACKEND_PATH}/config/.env
   
