@@ -16,6 +16,11 @@ root
       └── Dockerfile
 ```
 
+## Command to run docker
+```
+docker-compose up
+```
+
 ## Changing names of repos
 If you have a different folder structure, you can change each path in the .env file.
 
