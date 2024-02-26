@@ -18,7 +18,7 @@ root
 
 ## Command to run docker
 ```
-docker-compose up
+docker-compose up --build
 ```
 
 ## Changing names of repos
