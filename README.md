@@ -1,6 +1,13 @@
 # docker
 Repository for running Ski Planner in containerized docker environment
 
+## Ports
+
+Front-end: 3000
+Back-end: 8888
+Route-generation: 3500
+AI-rating-prediction: 1337
+
 ## Folder structure
 Follow this folder structure
 
