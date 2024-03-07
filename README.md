@@ -15,7 +15,9 @@ Follow this folder structure
 root
 ├── docker
 |     └── Dockerfile
-├── Algorithm-Performance-improver
+├── AI-rating-prediction
+|     └── Dockerfile
+├── Route-generation
 |     └── Dockerfile
 ├── Ski-Planner-FE
 |     └── Dockerfile
