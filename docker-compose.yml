@@ -17,9 +17,16 @@ services:
     env_file:
       - ${BACKEND_PATH}/config/.env
   
-  microservice:
+  route-generation:
     build:
-      context: ${MICROSERVICE_PATH}
+      context: ${ROUTE_GEN_PATH}
       dockerfile: Dockerfile
     ports:
       - "3500:3500"
+
+  ai-rating:
+    build:
+      context: ${AI_RATING_PATH}
+      dockerfile: Dockerfile
+    ports:
+      - "1337:1337"
