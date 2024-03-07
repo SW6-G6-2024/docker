@@ -1,6 +1,9 @@
 # docker
 Repository for running Ski Planner in containerized docker environment
 
+![Untitled-2024-03-07-1031](https://github.com/SW6-G6-2024/docker/assets/92527083/4b908f6f-5a79-42db-b310-33b14d9ff823)
+
+
 ## Ports
 
 Front-end: 3000
