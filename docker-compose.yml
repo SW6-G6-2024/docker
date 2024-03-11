@@ -15,7 +15,7 @@ services:
     ports:
       - "8888:8888"
     env_file:
-      - ${BACKEND_PATH}/config/.env
+      - ${BACKEND_PATH}/config/.env.docker
     environment:
       - RUNNING_IN_DOCKER=true
   
