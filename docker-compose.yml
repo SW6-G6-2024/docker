@@ -16,6 +16,8 @@ services:
       - "8888:8888"
     env_file:
       - ${BACKEND_PATH}/config/.env
+    environment:
+      - RUNNING_IN_DOCKER=true
   
   route-generation:
     build:
